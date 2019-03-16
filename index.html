@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.w3-button {width:150px;}
+</style>
+<div class="header"><h1> Tic Tac @ Hiver</h1></div>
+
+<div class="playerChoice">
+    <center><h2 style=" font-family: 'Roboto', sans-serif;">Do you want the first move?</h2>
+    <button class="yesBtn w3-button w3-purple" onclick="showGameBoard(1)">Yes</button>
+    <button class="noBtn w3-button w3-deep-purple" onclick="showGameBoard(0)">No</button></center>
+</div>
+
+<div class="parentTop">
+    <div class="gridTop">
+        <div id="grid">
+
+        </div>
+    </div>
+</div>
+
+<center>
+    <div class="winnerMsg">
+
+        <h2 > Congratulations!</h2>
+
+        <h5 >Player Wins!</h5>
+
+    </div>
+
+    <div class="tieMsg">
+
+        <h2 > Bad Luck Player!</h2>
+
+        <h5>It's a Tie!</h5>
+
+    </div>
+
+    <div class="loserMsg">
+
+        <h2> Better Luck Next Time!</h2>
+
+        <h5>Bot Wins!</h5>
+
+    </div>
+</center>
+
+<script type="text/javascript" src="./jquery.min.js" ></script>
+<script type="text/javascript" src="./index.js" ></script>
+<link rel="stylesheet" href="./index.css">
